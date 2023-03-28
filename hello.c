@@ -7,7 +7,8 @@
 
 int
 main()
-{
+{	
+	printf("Solo estoy tratando de usar el fork de  GitHub");
     if (argc != 0) {
         fprintf(stdout, "Program %s takes no parameters.\n", argv[0]);
         exit(FAILURE);
